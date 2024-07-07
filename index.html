@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Signup Page</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="flex full-screen">
+    <div class="w-1/2 bg-cover bg-center" style="background-image: url('https://cleancreations.com/data/config/login_image.jpg?md=5aa06eb7aa5a83d1992520b885d63182');"></div>
+    <div class="w-1/2 flex items-center justify-center">
+      <div class="d-flex mt-2 mr-3">  
+      <div class="flex justify-end">
+          <a href="#" class="flex  px-3 text-gray-500 hover:text-gray-700 hover:underline">
+              <svg class="h-4 w-4 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7 7M5 15l7-7" />
+              </svg>
+              Back to Home
+            </a>
+        </div>
+        <div class="container w-100">
+          <div class="row d-flex align-items-top justify-content-center">
+            <div class="col-sm-7 form_wrapper_register">
+              <div class="title_login_wrapper">
+                <h3 class="text-2xl font-bold font-sans mb-10">Sign Up to Clean Creations</h3>
+                <p class="mb-4"></p>
+              </div>
+              <div id="register_form mb-5 pb-5">
+                <form >
+                  <!-- START NAME FIELD -->
+                  <form class="space-y-4 ">
+                    <div>
+                      <label class="control-label" for="txName" class="mb-5">First Name  
+                        <span class="asteriskField">*</span></label>
+                      <input type="text" placeholder="First Name" class=" w-5/6 bg-gray-100 py-2 px-5 rounded-full pr-10 mb-5">
+                    </div>
+                    <!-- END NAME FIELD -->
+  
+                    <!-- START LAST NAME FIELD -->
+                    <div>
+                      <label class="control-label" for="txName"class="mb-5">Last Name  
+                        <span class="asteriskField">*</span></label>
+                      <input type="text" placeholder="Last Name" class=" w-5/6 bg-gray-100 py-2 px-5 rounded-full pr-10 mb-5">
+                    </div>
+                    <!-- END LAST NAME FIELD -->
+
+                    <!-- START EMAIL FIELD -->
+                    <div>
+                      <label class="control-label " for="txEmail"class="mb-5">Email
+                        <span class="asteriskField">*</span></label>
+                      <input type="email" placeholder=""class=" w-full bg-gray-100 py-2 px-3 rounded-full pr-10 mb-5">
+                    </div>
+                <!-- END EMAIL FIELD -->
+  
+                <!-- START PHONE FIELD -->
+                    <div>
+                      <label class="control-label " for="txPhone"class="mb-5">Phone
+                         <span class="asteriskField">*</span></label>
+                      <input type="tel" placeholder="(xxx)-xxx-xxxx" class=" w-full bg-gray-100 py-2 px-3 rounded-full pr-10 mb-5">
+                    </div>
+                <!-- END PHONE FIELD -->
+  
+                <!-- START BIRTHDAY FIELD -->
+                    <div>
+                      <label class="control-label " for="txBirthDate"class="mb-5">Birthday 
+                        <span class="asteriskField">*</span></label>
+                      <input type="date" placeholder=""  class=" w-full bg-gray-100 py-2 px-3 rounded-full pr-10 mb-5">
+                    </div>
+                 <!-- END BIRTHDAY FIELD -->
+  
+                <!-- START PASSWORD FIELD -->
+                    <div class="relative">
+                      <label class="control-label " for="txPassword"class="mb-5">Password 
+                        <span class="asteriskField">*</span></label>
+                      <input type="password" placeholder="" class=" w-full bg-gray-100 py-2 px-3 rounded-full pr-10 mb-5">
+                    </div>
+                <!-- END PASSWORD FIELD -->
+      
+                    <!-- START CONFIRM PASSWORD FIELD -->
+                    <div class="relative">
+                      <label class="control-label " for="txPassword"class="mb-5"> Confirm Password 
+                        <span class="asteriskField">*</span></label>
+                      <input type="password" placeholder="" class=" w-full bg-gray-100 py-2 px-3 rounded-full pr-10 mb-5">
+                    </div>
+                    <!-- END CONFIRM PASSWORD FIELD -->
+                              
+                <!-- START RECAPTCHA FIELD -->
+              <div class="form-group last">
+               <div class="g-recaptcha mb-5" data-sitekey="6LchD8kZAAAAAGZTUSn-xSvKGY9LCtpfW9vFKNtg">
+               <div style="width: 304px; height: 78px;">
+                <div><iframe title="reCAPTCHA" width="304" height="78" role="presentation" name="a-rv9ehph7zp77" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LchD8kZAAAAAGZTUSn-xSvKGY9LCtpfW9vFKNtg&amp;co=aHR0cHM6Ly9jbGVhbmNyZWF0aW9ucy5jb206NDQz&amp;hl=en&amp;v=TqxSU0dsOd2Q9IbI7CpFnJLD&amp;size=normal&amp;cb=897e0qg7dqkx" data-gtm-yt-inspected-10="true"></iframe>
+                </div>
+                <textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div>
+                <iframe data-gtm-yt-inspected-10="true" style="display: none;"></iframe></div>
+              </div>
+              <!--- END RECAPTCHA FIELD-->
+             
+              <!-- Start OPTINS FIELD-->
+          <div class="flex justify-center">
+            <div class="optins my-5">
+             <div class="col-xs-12 col-sm-12">
+               <label class="control control--checkbox mb-0">
+                 <input type="checkbox" class="checkbox h-5 w-5 text-blue-500">&nbsp;
+                 <span class="caption">I agree to receiving periodic messages sent to<br>&nbsp;&nbsp;&nbsp;&nbsp; my phone for alerts and notifications.<br>&nbsp;&nbsp;&nbsp;&nbsp; Message and data rates may apply.</span>
+                 <div class="control__indicator"></div>
+               </label>
+             </div>
+             <div class="col-xs-12 col-sm-12">
+               <label class="control control--checkbox mb-0">
+                 <input type="checkbox" class="checkbox h-5 w-5 text-blue-500">&nbsp;
+                 <span class="caption">I agree to receiving periodic messages sent to<br>&nbsp;&nbsp;&nbsp;&nbsp; my email for alerts and notifications.</span>
+                 <div class="control__indicator"></div>
+               </label>
+             </div>
+             <div class="col-xs-12 col-sm-12">
+               <label class="control control--checkbox mb-0">
+                 <input type="checkbox" class="checkbox h-5 w-5 bg-blue-500">&nbsp;
+                 <span class="caption ml-2">I have read and agree to the
+                   <a id="termsConditionsModal" href="#" class="forgot-pass"> Terms &amp; Conditions</a>. <span class="asteriskField">*</span></span>
+               </label>
+             </div>
+           </div>
+         </div>
+           <!-- END OPTINS FIELD -->
+            <button type="submit" class=" w-full bg-gray-300 hover:bg-green-400 text-white font-bold py-2 px-4 rounded-md">Register</button>
+        </form></div>
+    </div>
+  </div>
+  </div>
+</body>
+</html>
